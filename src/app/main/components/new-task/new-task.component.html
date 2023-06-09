@@ -1,0 +1,18 @@
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+  <div
+    class="bg-[#181818] w-[350px] h-[150px] flex justify-start items-center flex-col"
+  >
+    <input
+      formControlName="task"
+      placeholder="enter task"
+      type="text"
+      class="bg-[#525252] mt-[40px] w-[80%] h-[22px] p-[5px]"
+    />
+    <button
+      class="m-4 bg-[#525252] p-[10px] rounded-xl"
+      [disabled]="!taskForm.valid"
+    >
+      Add
+    </button>
+  </div>
+</form>

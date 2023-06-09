@@ -1,0 +1,21 @@
+<div class="w-[250px] h-auto bg-[#525252] m-[20px]">
+  <div
+    class="text-[24px] flex justify-center items-center bg-[#181818] border border-solid border-[#575757] h-[70px] w-full"
+  >
+    {{ listName }}
+  </div>
+  <app-todo-list-item
+    *ngFor="let task of tasks"
+    [task]="task"
+    [listName]="listName"
+  ></app-todo-list-item>
+  <div class="flex w-full h-[40px] justify-center items-center">
+    <button
+      class="rounded-lg text-[14px] border border-solid border-gray-600 m-[15px] bg-[#181818] p-[6px]"
+      (click)="openDialog()"
+      *ngIf="listName == 'todo'"
+    >
+      Add
+    </button>
+  </div>
+</div>

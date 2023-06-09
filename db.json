@@ -1,0 +1,58 @@
+{
+  "todo": [
+    {
+      "text": "work",
+      "state": "todo",
+      "id": 7
+    },
+    {
+      "text": "run",
+      "state": "todo",
+      "id": 8
+    },
+    {
+      "text": "some other thing was added",
+      "state": "todo",
+      "id": 9
+    },
+    {
+      "text": "something was added",
+      "state": "todo",
+      "id": 10
+    }
+  ],
+  "progress": [
+    {
+      "text": "education",
+      "state": "progress",
+      "id": 3
+    },
+    {
+      "text": "work",
+      "state": "progress",
+      "id": 5
+    }
+  ],
+  "done": [
+    {
+      "text": "beat dogss",
+      "state": "done",
+      "id": 7
+    },
+    {
+      "text": "task was created ",
+      "state": "done",
+      "id": 8
+    },
+    {
+      "text": "add some new task",
+      "state": "done",
+      "id": 9
+    },
+    {
+      "text": "run",
+      "state": "done",
+      "id": 10
+    }
+  ]
+}

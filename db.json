@@ -1,58 +1,48 @@
 {
   "todo": [
     {
-      "text": "work",
+      "text": "sleep",
       "state": "todo",
-      "id": 7
+      "id": 3
     },
     {
-      "text": "run",
+      "text": "code",
       "state": "todo",
-      "id": 8
+      "id": 4
     },
     {
-      "text": "some other thing was added",
+      "text": "walk a dog",
       "state": "todo",
-      "id": 9
-    },
-    {
-      "text": "something was added",
-      "state": "todo",
-      "id": 10
+      "id": 5
     }
   ],
   "progress": [
     {
-      "text": "education",
+      "text": "run",
       "state": "progress",
-      "id": 3
+      "id": 1
     },
     {
       "text": "work",
       "state": "progress",
-      "id": 5
+      "id": 2
     }
   ],
   "done": [
     {
-      "text": "beat dogss",
+      "text": "wake up",
       "state": "done",
-      "id": 7
+      "id": 1
     },
     {
-      "text": "task was created ",
+      "text": "eat",
       "state": "done",
-      "id": 8
+      "id": 2
     },
     {
-      "text": "add some new task",
+      "text": "drink",
       "state": "done",
-      "id": 9
-    },
-    {
-      "text": "run",
-      "state": "done",
-      "id": 10
+      "id": 3
     }
   ]
 }

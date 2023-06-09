@@ -11,9 +11,14 @@
       "id": 4
     },
     {
-      "text": "walk a dog",
+      "text": "drink",
       "state": "todo",
       "id": 5
+    },
+    {
+      "text": "walk a dog",
+      "state": "todo",
+      "id": 6
     }
   ],
   "progress": [
@@ -38,11 +43,6 @@
       "text": "eat",
       "state": "done",
       "id": 2
-    },
-    {
-      "text": "drink",
-      "state": "done",
-      "id": 3
     }
   ]
 }

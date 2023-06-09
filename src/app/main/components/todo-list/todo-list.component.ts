@@ -17,14 +17,8 @@ export class TodoListComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.sub = this.http.dataUpdate
       .pipe(
-        filter((resp: any) => {
-          if (resp == 'initial' || resp == this.listName) {
-            return resp;
-          }
-        }),
-        switchMap(() => {
-          return this.http.getTasks(this.listName);
-        })
+        filter((resp: any) => resp == 'initial' || resp == this.listName),
+        switchMap(() => this.http.getTasks(this.listName))
       )
       .subscribe((resp: any) => {
         this.tasks = resp;
